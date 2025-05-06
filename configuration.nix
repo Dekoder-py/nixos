@@ -95,7 +95,7 @@
 
   # Enable automatic login for the user.
   services.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "kyle";
+  services.displayManager.autoLogin.user = "kyle";
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -123,6 +123,7 @@
   fd
   ripgrep
   eza
+  gh
   python3
   kitty
   fastfetch
